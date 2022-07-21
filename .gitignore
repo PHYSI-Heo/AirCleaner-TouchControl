@@ -1,0 +1,8 @@
+# Atmel Studio Files
+__vm/
+Debug/
+Release/
+
+*.xml
+*.cppproj
+*/old

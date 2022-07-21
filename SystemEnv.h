@@ -1,0 +1,49 @@
+﻿#ifndef SYSTEMENV_H_
+#define SYSTEMENV_H_
+
+
+#define MODE_NONE			0
+#define MODE_AUTO			1
+#define MODE_GO_OUT			2
+#define MODE_VENTILATION	3
+#define MODE_SLEEP			4
+
+
+#define PL_DISABLE			0
+#define PL_STAGE_1			1
+#define PL_STAGE_2			2
+#define PL_STAGE_3			3
+#define PL_VENTILATION		4
+
+
+#define VOC_UNKNOWN		0
+#define VOC_GOOD		1
+#define VOC_NORMAL		2
+#define VOC_BAD			3
+
+
+#define TOUCH_POWER		1
+#define TOUCH_STAGE		2
+//#define TOUCH_TIMER		4
+#define TOUCH_MODE		4
+#define TOUCH_LOCK		20
+#define TOUCH_MUTE		21
+
+
+#define IR_SIGNAL_POWER		3927310080
+#define IR_SIGNAL_MODE1		3810328320
+#define IR_SIGNAL_MODE2		2790915840
+#define IR_SIGNAL_MODE3		3877175040
+#define IR_SIGNAL_MUTE		2857762560
+#define IR_SIGNAL_1H		2724069120
+#define IR_SIGNAL_2H		2740780800
+
+
+#define TIMER_1H     180000		//3600000
+#define TIMER_2H     300000		//7200000
+#define TIMER_3H	 420000		//10800000
+#define TIMER_8H	 600000		//28800000
+#define TIMER_24H    86400000
+
+
+#endif /* SYSTEMENV_H_ */
